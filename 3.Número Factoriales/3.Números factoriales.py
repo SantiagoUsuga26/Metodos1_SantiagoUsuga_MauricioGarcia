@@ -1,3 +1,4 @@
+#Punto 1
 def factorial(n:int):
     factorial=n
     valor=n
@@ -16,6 +17,7 @@ for i in range(20):
     prim_fact.append(factorial(i))
 print(prim_fact)
 
+#Punto 2
 def variaciones_sin(n:int , r:int):
     num=factorial(n)[1]
     dem=factorial((n-r))[1]
@@ -24,6 +26,7 @@ def variaciones_sin(n:int , r:int):
 print("Permutaciones 6 carros en 3 estacionamientos:")
 print(variaciones_sin(6,3))
 
+#Punto 3
 def combinaciones_sin(n:int , m:int):
     num=factorial(n)[1]
     dem=factorial(m)[1]*factorial((n-m))[1]
