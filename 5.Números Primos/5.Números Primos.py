@@ -1,5 +1,6 @@
 #Librerias usadas
 import numpy as np
+from matplotlib import pyplot as plt
 
 def esPrimo(n:int):
     i=int(np.sqrt(n))
